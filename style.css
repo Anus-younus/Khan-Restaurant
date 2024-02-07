@@ -392,11 +392,11 @@ body {
   }
   /* About Sction  */
   .About-container {
-    height: 60em;
+    height: 80em;
   }
   /* branch section start  */
   .branch {
-    height: 300em;
+    height: 400em;
   }
   .footer{
     height: 50em;
@@ -416,13 +416,16 @@ body {
   .content {
     height: 400em;
   }
+  .branch{
+    height: 400em;
+  }
 }
 @media only screen and (min-width: 850px) {
   .content-container {
     height: 185em;
   }
   .branch {
-    height: 80em;
+    height: 150em;
   }
   .About-container {
     height: 85em;
@@ -434,6 +437,9 @@ body {
 @media only screen and (min-width: 998px) {
   .btn-2 {
     display: block;
+  }
+  .branch{
+    height: 80em;
   }
   .navbar-nav {
     height: 70px;
